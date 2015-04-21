@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61CCA071ABF689300337941 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CCA061ABF689300337941 /* RecordedAudio.swift */; };
+		B68346D91ABB9E24009E6188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68346D81ABB9E24009E6188 /* AppDelegate.swift */; };
+		B68346DB1ABB9E24009E6188 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68346DA1ABB9E24009E6188 /* RecordSoundsViewController.swift */; };
+		B68346DE1ABB9E24009E6188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68346DC1ABB9E24009E6188 /* Main.storyboard */; };
+		B68346E01ABB9E24009E6188 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68346DF1ABB9E24009E6188 /* Images.xcassets */; };
+		B68346E31ABB9E24009E6188 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68346E11ABB9E24009E6188 /* LaunchScreen.xib */; };
+		B68346EF1ABB9E24009E6188 /* VoizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68346EE1ABB9E24009E6188 /* VoizerTests.swift */; };
+		B6EB9DD91ABE2326001E9C5A /* PlaysoundsviewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB9DD81ABE2326001E9C5A /* PlaysoundsviewcontrollerViewController.swift */; };
+		B6EB9DDB1ABF4162001E9C5A /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6EB9DDA1ABF4162001E9C5A /* movie_quote.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B68346E91ABB9E24009E6188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68346CB1ABB9E24009E6188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68346D21ABB9E24009E6188;
+			remoteInfo = Voizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B61CCA061ABF689300337941 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		B68346D31ABB9E24009E6188 /* Voizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68346D71ABB9E24009E6188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68346D81ABB9E24009E6188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B68346DA1ABB9E24009E6188 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		B68346DD1ABB9E24009E6188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B68346DF1ABB9E24009E6188 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B68346E21ABB9E24009E6188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B68346E81ABB9E24009E6188 /* VoizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68346ED1ABB9E24009E6188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68346EE1ABB9E24009E6188 /* VoizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoizerTests.swift; sourceTree = "<group>"; };
+		B6EB9DD81ABE2326001E9C5A /* PlaysoundsviewcontrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaysoundsviewcontrollerViewController.swift; sourceTree = "<group>"; };
+		B6EB9DDA1ABF4162001E9C5A /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B68346D01ABB9E24009E6188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68346E51ABB9E24009E6188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68346CA1ABB9E24009E6188 = {
+			isa = PBXGroup;
+			children = (
+				B68346D51ABB9E24009E6188 /* Voizer */,
+				B68346EB1ABB9E24009E6188 /* VoizerTests */,
+				B68346D41ABB9E24009E6188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B68346D41ABB9E24009E6188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68346D31ABB9E24009E6188 /* Voizer.app */,
+				B68346E81ABB9E24009E6188 /* VoizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B68346D51ABB9E24009E6188 /* Voizer */ = {
+			isa = PBXGroup;
+			children = (
+				B68346D81ABB9E24009E6188 /* AppDelegate.swift */,
+				B68346DA1ABB9E24009E6188 /* RecordSoundsViewController.swift */,
+				B68346DC1ABB9E24009E6188 /* Main.storyboard */,
+				B61CCA061ABF689300337941 /* RecordedAudio.swift */,
+				B6EB9DD81ABE2326001E9C5A /* PlaysoundsviewcontrollerViewController.swift */,
+				B68346DF1ABB9E24009E6188 /* Images.xcassets */,
+				B68346E11ABB9E24009E6188 /* LaunchScreen.xib */,
+				B68346D61ABB9E24009E6188 /* Supporting Files */,
+			);
+			path = Voizer;
+			sourceTree = "<group>";
+		};
+		B68346D61ABB9E24009E6188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B68346D71ABB9E24009E6188 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B68346EB1ABB9E24009E6188 /* VoizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B68346EE1ABB9E24009E6188 /* VoizerTests.swift */,
+				B68346EC1ABB9E24009E6188 /* Supporting Files */,
+			);
+			path = VoizerTests;
+			sourceTree = "<group>";
+		};
+		B68346EC1ABB9E24009E6188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EB9DDA1ABF4162001E9C5A /* movie_quote.mp3 */,
+				B68346ED1ABB9E24009E6188 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B68346D21ABB9E24009E6188 /* Voizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68346F21ABB9E24009E6188 /* Build configuration list for PBXNativeTarget "Voizer" */;
+			buildPhases = (
+				B68346CF1ABB9E24009E6188 /* Sources */,
+				B68346D01ABB9E24009E6188 /* Frameworks */,
+				B68346D11ABB9E24009E6188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voizer;
+			productName = Voizer;
+			productReference = B68346D31ABB9E24009E6188 /* Voizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B68346E71ABB9E24009E6188 /* VoizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68346F51ABB9E24009E6188 /* Build configuration list for PBXNativeTarget "VoizerTests" */;
+			buildPhases = (
+				B68346E41ABB9E24009E6188 /* Sources */,
+				B68346E51ABB9E24009E6188 /* Frameworks */,
+				B68346E61ABB9E24009E6188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68346EA1ABB9E24009E6188 /* PBXTargetDependency */,
+			);
+			name = VoizerTests;
+			productName = VoizerTests;
+			productReference = B68346E81ABB9E24009E6188 /* VoizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B68346CB1ABB9E24009E6188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Dad and Caden";
+				TargetAttributes = {
+					B68346D21ABB9E24009E6188 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B68346E71ABB9E24009E6188 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B68346D21ABB9E24009E6188;
+					};
+				};
+			};
+			buildConfigurationList = B68346CE1ABB9E24009E6188 /* Build configuration list for PBXProject "Voizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B68346CA1ABB9E24009E6188;
+			productRefGroup = B68346D41ABB9E24009E6188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B68346D21ABB9E24009E6188 /* Voizer */,
+				B68346E71ABB9E24009E6188 /* VoizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B68346D11ABB9E24009E6188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68346DE1ABB9E24009E6188 /* Main.storyboard in Resources */,
+				B68346E31ABB9E24009E6188 /* LaunchScreen.xib in Resources */,
+				B6EB9DDB1ABF4162001E9C5A /* movie_quote.mp3 in Resources */,
+				B68346E01ABB9E24009E6188 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68346E61ABB9E24009E6188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B68346CF1ABB9E24009E6188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CCA071ABF689300337941 /* RecordedAudio.swift in Sources */,
+				B6EB9DD91ABE2326001E9C5A /* PlaysoundsviewcontrollerViewController.swift in Sources */,
+				B68346DB1ABB9E24009E6188 /* RecordSoundsViewController.swift in Sources */,
+				B68346D91ABB9E24009E6188 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68346E41ABB9E24009E6188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68346EF1ABB9E24009E6188 /* VoizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B68346EA1ABB9E24009E6188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68346D21ABB9E24009E6188 /* Voizer */;
+			targetProxy = B68346E91ABB9E24009E6188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B68346DC1ABB9E24009E6188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68346DD1ABB9E24009E6188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B68346E11ABB9E24009E6188 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68346E21ABB9E24009E6188 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B68346F01ABB9E24009E6188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B68346F11ABB9E24009E6188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B68346F31ABB9E24009E6188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B68346F41ABB9E24009E6188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B68346F61ABB9E24009E6188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voizer.app/Voizer";
+			};
+			name = Debug;
+		};
+		B68346F71ABB9E24009E6188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voizer.app/Voizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B68346CE1ABB9E24009E6188 /* Build configuration list for PBXProject "Voizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68346F01ABB9E24009E6188 /* Debug */,
+				B68346F11ABB9E24009E6188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68346F21ABB9E24009E6188 /* Build configuration list for PBXNativeTarget "Voizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68346F31ABB9E24009E6188 /* Debug */,
+				B68346F41ABB9E24009E6188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68346F51ABB9E24009E6188 /* Build configuration list for PBXNativeTarget "VoizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68346F61ABB9E24009E6188 /* Debug */,
+				B68346F71ABB9E24009E6188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B68346CB1ABB9E24009E6188 /* Project object */;
+}
